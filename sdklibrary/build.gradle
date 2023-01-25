@@ -55,3 +55,14 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 }
+publishing {
+    repositories {
+        maven {
+            url 'https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/'
+            credentials {
+                username = "karthikrathinavel8"
+                password = "K*arthik260101"
+            }
+        }
+    }
+}

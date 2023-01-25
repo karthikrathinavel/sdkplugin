@@ -9,6 +9,6 @@ plugins {
     id 'com.android.library' version '7.3.1' apply false
 }
 apply plugin: 'io.github.gradle-nexus.publish-plugin'
-ext["signing.keyId"] = '8E488406'
+ext["signing.keyId"] = '576FE064'
 ext["signing.password"] = 'kkrv260101'
 ext["signing.secretKeyRingFile"] = 'SecretRingKey.gpg'
